@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- My Font Awesome kit -->
+    <script
+      src="https://kit.fontawesome.com/c9492f5926.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google fonts - Raleway -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <!-- The css file compiled from sass -->
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>Welcome To The Developer Connector</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar bg-dark">
+      <h1>
+        <a href="index.html"
+          ><i class="fas fa-code"></i>
+          DevConnector
+        </a>
+      </h1>
+      <ul>
+        <li><a href="profiles.html">Developers</a></li>
+        <li><a href="posts.html.html">Posts</a></li>
+        <li>
+          <a href="dashboard.html">
+            <i class="fas fa-user"></i>
+            <span class="hide-sm">
+              Dashboard
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="login.html">
+            <i class="fas fa-sign-out-alt"></i>
+            <span class="hide-sm">
+              Logout
+            </span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Container -->
+    <section class="container">
+      <a href="posts.html" class="btn">Back To Posts</a>
+      <div class="post bg-white p-1 my-1">
+        <div>
+          <a href="profile.html">
+            <img
+              class="round-img"
+              src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200"
+              alt=""
+            />
+            <h4>John Doe</h4>
+          </a>
+        </div>
+        <div>
+          <p class="my-1">
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+            posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam
+            vel, ullamcorper sit amet ligula. Nulla quis lorem ut libero
+            malesuada feugiat. Proin eget tortor risus.
+          </p>
+        </div>
+      </div>
+
+      <div class="post-form">
+        <div class="post-form-header bg-primary">
+          <h3>Leave A Comment</h3>
+        </div>
+        <form class="form my-1">
+          <textarea
+            name="text"
+            cols="30"
+            rows="5"
+            placeholder="Comment on this post..."
+            required
+          ></textarea>
+          <input type="submit" class="btn btn-dark my-1" value="Submit" />
+        </form>
+      </div>
+
+      <div class="posts">
+        <div class="post bg-white p-1 my-1">
+          <div>
+            <a href="profile.html">
+              <img
+                class="round-img"
+                src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200"
+                alt=""
+              />
+              <h4>John Doe</h4>
+            </a>
+          </div>
+          <div>
+            <p class="my-1">
+              Proin eget tortor risus. Vestibulum ac diam sit amet quam vehicula
+              elementum sed sit amet dui. Vestibulum ac diam sit amet quam
+              vehicula elementum sed sit amet dui. Nulla quis lorem ut libero
+              malesuada feugiat. Vivamus magna justo.
+            </p>
+          </div>
+        </div>
+
+        <div class="post bg-white p-1 my-1">
+          <div>
+            <a href="profile.html">
+              <img
+                class="round-img"
+                src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200"
+                alt=""
+              />
+              <h4>John Doe</h4>
+            </a>
+          </div>
+          <div>
+            <p class="my-1">
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+              posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam
+              vel, ullamcorper sit amet ligula. Pellentesque in ipsum id orci
+              porta dapibus. Donec sollicitudin molestie malesuada.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
